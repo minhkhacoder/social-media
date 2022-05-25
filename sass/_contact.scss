@@ -1,0 +1,18 @@
+/** @format */
+
+.contact {
+  margin-bottom: 160px;
+  &-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}

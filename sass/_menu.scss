@@ -1,0 +1,22 @@
+/** @format */
+
+.menu {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+  &-logo {
+    width: 100%;
+  }
+  &-item {
+    a {
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: calc(25px / 18px);
+      color: $primary-color;
+      text-transform: capitalize;
+      font-style: normal;
+    }
+  }
+}

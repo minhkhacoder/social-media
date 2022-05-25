@@ -1,0 +1,22 @@
+/** @format */
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  &-item {
+    .line {
+      background-color: $primary-color;
+      height: 25px;
+      width: 2px;
+    }
+    .cog {
+      cursor: pointer;
+      i {
+        display: inline-block;
+        font-size: 28px;
+      }
+    }
+  }
+}

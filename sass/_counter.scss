@@ -1,0 +1,39 @@
+/** @format */
+
+.counter {
+  margin-bottom: 120px;
+  padding: 0 156px;
+  cursor: pointer;
+  &-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+  }
+  &-item {
+    text-align: center;
+  }
+  &-member {
+    h3 {
+      color: #006064 !important;
+    }
+  }
+  &-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 32px;
+  }
+  &-name {
+    line-height: calc(44px / 32px);
+    text-transform: capitalize;
+    span {
+      font-weight: 400;
+    }
+  }
+  &-line {
+    width: 1px;
+    height: 74.25px;
+    border: 1px solid #d1c4e9;
+  }
+}
